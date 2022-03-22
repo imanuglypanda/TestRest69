@@ -1,0 +1,28 @@
+{
+  "name": "testrest69",
+  "version": "1.0.0",
+  "description": "Use to test REST API",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imanuglypanda/TestRest69.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imanuglypanda/TestRest69/issues"
+  },
+  "homepage": "https://github.com/imanuglypanda/TestRest69#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
