@@ -1,15 +1,30 @@
+// All Subscribers
 GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/27
+// Specified Subscriber
+GET http://localhost:3000/subscribers/id
 
 ###
 
-POST http://deploynode.app.ruk-com.cloud/subscribers
+POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "name": "Amazing Person",
+    "name": "Tanapat Jeensamran",
     "subscribedToChannel": "Web Dev Simplified"
 }
+
+###
+
+PATCH http://localhost:3000/subscribers/6239889e6a7ca8ab1b2e3a05
+Content-Type: application/json
+
+{
+    "name": "Homer"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/623988bb6a7ca8ab1b2e3a07
