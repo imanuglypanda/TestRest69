@@ -28,3 +28,17 @@ Content-Type: application/json
 ###
 
 DELETE http://localhost:3000/subscribers/623988bb6a7ca8ab1b2e3a07
+
+###
+
+GET http://testrest69.app.ruk-com.cloud/subscribers
+
+###
+
+POST http://testrest69.app.ruk-com.cloud/subscribers
+Content-Type: application/json
+
+{
+    "name": "Tanapat Jeensamran",
+    "subscribedToChannel": "Gawr Gura"
+}
