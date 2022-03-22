@@ -15,8 +15,8 @@ app.use(express.json())
 const subscriberRouter = require('./routes/subscribers')
 app.use('/subscribers', subscriberRouter)
 
-// app.get("/", (req, res) => {
-//    res.send("Hello Node.js REST Server!");
-// });
+app.get("/", (req, res) => {
+   res.send("Hello Node.js REST Server!");
+});
 
 app.listen(3000, () => console.log('Server Started'))
